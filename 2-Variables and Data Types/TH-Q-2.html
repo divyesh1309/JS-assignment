@@ -1,0 +1,106 @@
+<!-- 
+
+Q 2.  Explain the different data types in JavaScript. Provide examples for each.
+
+What is data type in JavaScript?
+=>  data type is the type of data that can be stored inside a variable.
+=> Data types are used to define the type of data that can be stored in a variable. JavaScript has several built-in data types, which can be categorized into two main groups: primitive and non-primitive (or reference) data types.
+
+
+Primitive data types :-
+
+1) Number 
+   - Represents both integer and floating-point numbers.
+
+   - Example :- 
+
+    let age = 25; // integer
+    let price = 19.99; // floating-point number
+    let pi = 3.14; // floating-point number
+     
+2) String 
+   - Represents a sequence of characters enclosed in single or double quotes.
+
+   - Example :- 
+
+    let name = "John Doe"; // string
+    let greeting = 'Hello, World!'; // string
+    let message = `Welcome to JavaScript!`; // template literal
+
+3) Boolean
+    - Represents a logical value that can be either true or false.
+    
+    - Example :- 
+    
+     let isActive = true; // boolean
+     let isLoggedIn = false; // boolean
+
+4) Null
+
+    - Represents the intentional absence of any object value. It is a primitive value that represents "no value" or "empty value".
+
+    - Example :- 
+
+     let emptyValue = null; // null
+     let noValue = null; // null
+     
+
+
+
+5) Undefined
+
+    - Represents a variable that has been declared but has not been assigned a value.
+    
+    - Example :- 
+    
+     let x; // undefined
+     console.log(x); // Output: undefined
+
+
+
+6) Symbol (ES6)
+
+    - Represents a unique and immutable value, often used as object property keys.
+
+    - Example :- 
+
+     const uniqueId = Symbol('id'); // symbol
+     const anotherId = Symbol('id'); // different symbol
+     console.log(uniqueId === anotherId); // Output: false
+
+
+7) BigInt (ES11)
+
+    - Represents integers with arbitrary precision, allowing for very large numbers.
+
+    - Example :- 
+
+     const bigNumber = BigInt(123456789012345678901234567890)n; // BigInt
+     const anotherBigNumber = 123456789012345678901234567890n; // BigInt
+     console.log(bigNumber === anotherBigNumber); // Output: true
+
+
+
+Non-primitive data types :-
+
+1) Object
+    - Represents a collection of key-value pairs, where keys are strings (or Symbols) and values can be of any data type.
+
+    - Example :- 
+
+     let person = {
+         name: "John Doe",
+         age: 30,
+         isEmployed: true
+     }; // object
+
+
+2) Array
+
+    - Represents an ordered collection of values, which can be of any data type. Arrays are a special type of object in JavaScript.
+
+    - Example :- 
+
+     let fruits = ["apple", "banana", "orange"]; // array
+     let numbers = [1, 2, 3, 4, 5]; // array
+-->
